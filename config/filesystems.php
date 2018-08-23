@@ -66,14 +66,15 @@ return [
             'driver' => 'qiniu',
             'protocol' => 'https',
             'domains' => [
-                'default' => 'cong5.qiniudn.com', //你的七牛域名
-                'https' => 'o75u5ooep.qnssl.com', //你的HTTPS域名
-                'custom' => 'img.cong5.net', //你的自定义域名
+                'default' => env('QINIU_DOMAIN',''), //你的七牛域名
+                'https' => env('QINIU_HTTPS_DOMAIN',''), //你的HTTPS域名
+                'custom' => env('QINIU_CUSTOM_DOMAIN',''), //你的自定义域名
             ],
             'access_key' => env('QINIU_ACCESSKEY',''), //AccessKey
             'secret_key' => env('QINIU_SECRETKEY',''), //SecretKey
             'bucket' => env('QINIU_BUCKET',''),  //Bucket名字
             'notify_url' => '',  //持久化处理回调地址
+	    'access' => 'public' //空间访问控制 public 或 private
         ],
 
     ],
