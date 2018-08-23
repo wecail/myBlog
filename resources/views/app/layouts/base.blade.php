@@ -31,7 +31,7 @@
 <div id="app">
     <div id="header">
         <div class="header-content">
-            <hgroup>
+            <header>
                 <div class="avatar">
                     <a href="{{ url('/') }}"><img src="{{ cdn('avatar/persimmon.jpg') }}" alt=""></a>
                 </div>
@@ -39,7 +39,7 @@
                 <div class="description">
                     <p>{{ bloginfo('description') }}</p>
                 </div>
-            </hgroup>
+            </header>
             <div class="clear"></div>
             <nav class="nav-bar">
                 <div class="menu-side-menu-container">
