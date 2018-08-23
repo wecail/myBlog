@@ -20,9 +20,9 @@ class UsersTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'name' => 'MrCong',
-                'email' => 'mypersimmon@cong5.net',
-                'password' => '$2y$10$oC0ilorUCl8dt78wqp8tteBDOw2RnC/dNbm4Mc91rWkQOgW573vtO',
+                'name' => 'MrCherry',
+                'email' => 'faithkouk@gmail.com',
+                'password' => '$2y$10$8bagnIIx/BOJC3Moi10ONulcuHEEJ3Yd67yKyNQbP70lMOQ5rH4Fu',
                 'avatar' => 'https://o75u5ooep.qnssl.com/avatar_2017-03-18',
                 'remember_token' => 'tDpcjqLYBeWU11ULTVcmsIFaaSiqdvVh8zDeNbFZ29lhqQNUR3Ki0QtEzCNd',
                 'created_at' => '2017-02-04 08:04:57',
