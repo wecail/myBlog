@@ -1,8 +1,8 @@
-node_modules
-publicstorage
-storage.key
-vendor
-.idea
+/node_modules
+/public/storage
+/storage/*.key
+/vendor
+/.idea
 Homestead.json
 Homestead.yaml
 _ide_helper.php
