@@ -1,6 +1,6 @@
 <template>
     <div class="comments-area">
-        <div id="respond" class="comment-respond">
+        <div id="respond" class="comment-respond markdown-body">
             <h3 id="reply-title" class="comment-reply-title">发表评论</h3>
             <div class="comment-form">
                 <form :model="myForm" id="commentform" class="comment-form" novalidate>
