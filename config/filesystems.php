@@ -64,7 +64,7 @@ return [
         ],
         'qiniu' => [
             'driver' => 'qiniu',
-            'protocol' => 'https',
+            'protocol' => 'http',
             'domains' => [
                 'default' => env('QINIU_DOMAIN',''), //你的七牛域名
                 'https' => env('QINIU_HTTPS_DOMAIN',''), //你的HTTPS域名

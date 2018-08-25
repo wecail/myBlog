@@ -23,7 +23,7 @@ class UsersTableSeeder extends Seeder
                 'name' => 'MrCherry',
                 'email' => 'faithkouk@gmail.com',
                 'password' => '$2y$10$8bagnIIx/BOJC3Moi10ONulcuHEEJ3Yd67yKyNQbP70lMOQ5rH4Fu',
-                'avatar' => 'https://o75u5ooep.qnssl.com/avatar_2017-03-18',
+                'avatar' => 'http://media.know1.cn/avatar_2017-03-18',
                 'remember_token' => 'tDpcjqLYBeWU11ULTVcmsIFaaSiqdvVh8zDeNbFZ29lhqQNUR3Ki0QtEzCNd',
                 'created_at' => '2017-02-04 08:04:57',
                 'updated_at' => '2017-03-18 08:48:00',
