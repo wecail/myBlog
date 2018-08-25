@@ -1,6 +1,6 @@
-## MyPersimmon
+## MyBlog
 
-![macbook](https://raw.githubusercontent.com/cong5/myPersimmon/master/screen.jpg)
+![macbook](https://raw.githubusercontent.com/wecail/myBlog/master/screen.jpg)
 
 
 本项目使用 PHP 框架 [Laravel 5.4](https://doc.laravel-china.org/docs/5.4/) 进行开发。 
@@ -19,7 +19,7 @@
 - 导航管理
 - Redis 缓存
 - 好用的 Simplemde Markdown 编辑器
-- myPersimmon博客分类、文章都支持自定义URL
+- myBlog博客分类、文章都支持自定义URL
 - 支持Metaweblog API，接口地址：http://example.com/xmlrpc ，可以方便的使用离线发布工具写博客，比如我就喜欢使用Mweb写博客，然后通过Metaweblog API发布。
 
 更多功能欢迎大家自己挖掘，或者有好的意见和建议欢迎拍砖。
@@ -27,17 +27,17 @@
 
 ## 项目概述
 
-* 项目名称：MyPersimmon
-* 项目运行地址：https://cong5.net/
+* 项目名称：MyBlog
+* 项目运行地址：https://blog.know1.cn/
 
-[MyPersimmon](https://github.com/Cong5/myPersimmon) 基于Laravel 5.4 版本开发。
+[MyBlog](https://github.com/wecail/myBlog/) 基于Laravel 5.4 版本开发。
 
 ## 目前运行环境
 
-- Nginx 1.8+
-- PHP 5.6+
-- MySQL 5.5+
-- Redis 3.0+
+- Apache 2.4+
+- PHP 7.0+
+- MariaDB 5.5+
+- Redis 3.2+
 
 ## 部署/安装
 
@@ -49,7 +49,7 @@
 
 克隆源代码到本地：
 
-    > git clone https://github.com/Cong5/myPersimmon.git
+    > git clone git@github.com:wecail/myBlog.git
 
 #### 2. 安装扩展包依赖
 
@@ -63,6 +63,9 @@
 
 ```shell
 #七牛云储存
+QINIU_DOMAIN=
+QINIU_HTTPS_DOMAIN=
+QINIU_CUSTOM_DOMAIN=
 QINIU_ACCESSKEY=
 QINIU_SECRETKEY=
 QINIU_BUCKET=
@@ -144,7 +147,7 @@ npm run watch
 
 ## License
 
-> 使用 MyPersimmon 构建，或者基于 MyPersimmon 源代码修改的站点 **必须** 在页脚加上 `Powered by Mr柿子` 字样，并且必须链接到 `https://cong5.net` 上。
+> 项目基于 [MyPersimmon](https://github.com/cong5/myPersimmon) 源代码修改，使用 MyBlog 构建，或者基于 MyBlog 源代码修改的站点 **必须** 在页脚加上 `Powered by MrCherry` 字样，并且必须链接到 `https://know1.cn` 上。
 
 在遵守以上规则的情况下，你可以享受等同于 MIT 协议的授权。
 
