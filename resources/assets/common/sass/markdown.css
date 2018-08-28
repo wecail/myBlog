@@ -292,7 +292,7 @@
 .markdown-body ul,
 .markdown-body ol,
 .markdown-body li {
-    list-style-type: decimal;
+    list-style-type: ;
 }
 
 .markdown-body ol ol,
