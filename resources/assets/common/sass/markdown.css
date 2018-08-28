@@ -289,10 +289,12 @@
     margin-bottom: 0;
 }
 
+.markdown-body ul,
 .markdown-body ul li {
     list-style-type: disc;
 }
 
+.markdown-body ol,
 .markdown-body ol li {
     list-style-type: decimal;
 }
